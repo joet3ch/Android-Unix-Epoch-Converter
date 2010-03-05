@@ -47,6 +47,7 @@ public class ToUnix extends Activity {
 	private Integer minute;
 	private Date epoch;
 	private String convertedString;
+	@SuppressWarnings("unused")
 	private String monthString;
 	private String logString = "";
 	private String currentLogString = "";
