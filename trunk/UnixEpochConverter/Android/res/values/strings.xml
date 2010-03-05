@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unix Epoch Converter</string>
+    <string name="main_title">Unix Epoch Converter</string>
+    <string name="main_footer">www.T3CH.com</string>
+    <string name="exit_button">Exit</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_button">About</string>
+    <string name="about_label">About</string>
+    <string name="about_title">About Unix Epoch Converter</string>
+    <string name="about_text">Unix Epoch Converter is a utility for converting Unix timestamps to and from human readable time.\n\n\nDeveloped by Joe Nicosia - T3CH.com LLC\n\n</string>
+    <string name="tounix_label">Convert to Unix</string>
+    <string name="fromunix_label">Convert to Human</string>
+    <string name="tounix_button">Convert to Unix</string>
+    <string name="fromunix_title">Convert to Human</string>
+    <string name="tounix_title">Convert to Unix</string>
+    <string name="fromunix_button">Convert to Human</string>
+    <string name="input_unix">Enter unix timestamp: (in seconds)</string>
+    <string name="io_unix">Unix timestamp:</string>
+    <string name="io_human">Human readable:</string>
+    <string name="convert_button">Convert</string>
+    <string name="recent_conversions">Recent conversions:</string>
+</resources>

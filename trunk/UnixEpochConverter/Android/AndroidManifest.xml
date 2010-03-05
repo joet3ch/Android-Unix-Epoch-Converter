@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.t3ch.unixepochconverter"
+      android:versionCode="5"
+      android:versionName="1.4">
+    <application android:icon="@drawable/launchericon" android:label="@string/app_name">
+        <activity android:name=".UnixEpochConverter"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ToUnix"
+            android:label="@string/tounix_title"
+            >
+        </activity>
+        
+        <activity
+            android:name=".FromUnix"
+            android:label="@string/fromunix_title"
+            >
+        </activity>
+        
+        <activity
+            android:name=".About"
+            android:label="@string/about_title"
+            android:theme="@android:style/Theme.Dialog"
+            >
+        </activity>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest> 
