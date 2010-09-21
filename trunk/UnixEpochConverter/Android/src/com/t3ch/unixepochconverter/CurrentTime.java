@@ -27,7 +27,6 @@ public class CurrentTime {
 
 	public String displayCurrentTime() {
 
-
 		// Fetch current date/time
 		Date date = new Date();
 		Integer day = (Integer) date.getDate();
